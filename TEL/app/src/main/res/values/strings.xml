@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tel <b></b></string>
+    <string name="title_activity_expand__view">Expand_View</string>
+    <string name="btn_expand_view">Expand View</string>
+    <string name="btn_backToNewsFeed">Notifications</string>
+    <string name="btn_NewsFeedNews">Notifications</string>
+    <string name="btn_Add">Add</string>
+</resources>

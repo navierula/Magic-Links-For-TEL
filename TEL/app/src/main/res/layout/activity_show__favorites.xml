@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.company.neladri.tel.show_Favorites">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_NewsFeedNews"
+        android:id="@+id/btn_NewsFeed"
+        android:onClick="back_to_NewsFeed"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Add"
+        android:id="@+id/btn_Add"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:id="@+id/btn_Profile"
+        android:layout_alignTop="@+id/btn_Add"
+        android:layout_centerHorizontal="true"
+        android:onClick="gotoProfile" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Energy Saving Router"
+        android:id="@+id/chk_EnergyR"
+        android:layout_below="@+id/btn_Add"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solar Grill"
+        android:id="@+id/chk_SolarGrill"
+        android:layout_below="@+id/chk_EnergyR"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heart Monitor"
+        android:id="@+id/chk_HeartMonitor"
+        android:layout_below="@+id/chk_SolarGrill"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solar Irrigation"
+        android:id="@+id/chk_SolarIrri"
+        android:layout_below="@+id/chk_HeartMonitor"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes Blanket"
+        android:id="@+id/chk_ClothesBlanket"
+        android:layout_below="@+id/chk_SolarIrri"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+</RelativeLayout>
